@@ -1,0 +1,77 @@
+.menu-editor-container {
+  background-color: #fefeff;
+  width: 350px;
+  height: 425px;
+
+  position: absolute;
+
+  border: 1px solid #e5e7eb;
+  border-radius: 0.25rem;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+
+  h1 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    padding: 0.5rem;
+  }
+
+  p {
+    color: #9ca3af;
+    padding: 0 0.5rem;
+  }
+}
+
+.filter-text-container {
+  padding: 1rem 0.5rem;
+
+  span:first-child {
+    color: #818590;
+    margin-right: 0.25rem;
+  }
+
+  span:last-child {
+    padding: 0.15rem 0.25rem;
+    border-radius: 0.25rem;
+
+    color: #b3c4df;
+    background-color: #3565a9;
+  }
+}
+
+.option-button {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+
+  padding: 0.5rem 0.75rem;
+
+  border: none;
+  background-color: transparent;
+
+  &:hover:not(:disabled) {
+    background-color: #f3f4f6;
+    cursor: pointer;
+  }
+}
+
+.option-icon-container-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.option-text-container-button {
+  display: flex;
+  flex-direction: column;
+
+  h3 {
+    text-align: left;
+    font-weight: bold;
+    color: #0d131d;
+  }
+
+  span {
+    color: #9fa5af;
+  }
+}

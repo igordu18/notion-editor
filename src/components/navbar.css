@@ -1,0 +1,43 @@
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  padding: 1rem;
+}
+
+.container-buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.container-item-with-icon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  gap: 1.5rem;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  border: none;
+  background-color: transparent;
+
+  cursor: pointer;
+}
+
+.editing-button {
+  color: #9ca3af;
+}
+
+.publish-button {
+  color: #3565a9;
+  span {
+    font-weight: bold;
+  }
+}

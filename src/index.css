@@ -1,0 +1,40 @@
+* {
+  font-family: Inter, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  color: #0d131d;
+  background-color: #fefeff;
+}
+
+.vertical-separator {
+  margin: 0;
+  padding: 0;
+
+  border-right: 1px #e5e7eb solid;
+}
+
+.short-vertical-separator {
+  margin: 0;
+  padding: 0;
+
+  width: 2px;
+  height: 1rem;
+  background-color: #e5e7eb;
+}
+
+.horizontal-separator {
+  border: 1px solid #e0e0e0;
+  margin: 0.75rem 0 1rem 0;
+}

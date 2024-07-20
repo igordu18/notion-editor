@@ -1,0 +1,64 @@
+.menu-actions-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0.5rem;
+
+  border: 1px solid #e5e7eb;
+  border-radius: 0.5rem;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1); 
+}
+
+.details {
+  display: inherit;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.short-name {
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+
+  font-weight: bold;
+  color: #4d8a6f;
+  background-color: #d8f8e6;
+}
+
+.time {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.25rem;
+
+  color: #9ca3af;
+}
+
+.share {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.25rem;
+
+  color: #9ca3af;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.menu-actions-button {
+  line-height: 0;
+  background-color: transparent;
+  border: none;
+
+  cursor: pointer;
+}
+
+.cloud-icon {
+  transform: scaleX(-1);
+}

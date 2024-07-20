@@ -1,0 +1,30 @@
+.helper-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin: 0 1rem 1rem 0;
+  padding: 0.75rem;
+
+  svg {
+  }
+  
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  
+  background-color: #f3f4f6;
+  border-radius: 0.5rem;
+  border: none;
+
+  cursor: pointer;
+}
+
+.icon-circle {
+  border: 2px solid #6d727e;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
