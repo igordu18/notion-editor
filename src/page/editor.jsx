@@ -44,6 +44,7 @@ export function Editor() {
             editor={editor}
             slashMenu={false}
             sideMenu={false}
+            formattingToolbar={false}
             theme="light"
           >
             <SuggestionMenuController
